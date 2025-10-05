@@ -14,3 +14,7 @@ Bioms of Infinity overhauls the End dimension with handcrafted biomes, structure
 ## Building
 
 Use the provided Gradle wrapper (`./gradlew build`) with Java 21. Run the datagen entrypoint to refresh data assets when adding new blocks or items.
+
+## Troubleshooting
+
+- **`Only Settings scripts can contain a pluginManagement {}`**: This happens when a `pluginManagement` block is added to `build.gradle`. Keep all plugin resolution rules inside `settings.gradle` (the repository already contains a configured block) and leave `build.gradle` with only the standard `plugins { ... }` declaration. If you hit the error in an existing checkout, remove the stray block and ensure `gradle.properties` sets `loom_version=1.7.9` so Gradle resolves the plugin without overrides.

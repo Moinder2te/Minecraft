@@ -1,3 +1,6 @@
+// NOTE: pluginManagement configuration must remain in settings.gradle.
+// Declaring a pluginManagement block in this build script will cause Gradle
+// to fail with "Only Settings scripts can contain a pluginManagement {} block".
 plugins {
 	id 'fabric-loom' version "${loom_version}"
 	id 'maven-publish'
