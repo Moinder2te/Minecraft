@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/vine_up",
+  "textures": {
+    "vine": "minecraft:block/vine"
+  }
+}

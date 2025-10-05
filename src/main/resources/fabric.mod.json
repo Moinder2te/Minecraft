@@ -2,16 +2,17 @@
 	"schemaVersion": 1,
 	"id": "bioms-of-infinity",
 	"version": "${version}",
-	"name": "Bioms-of-infinity",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+        "name": "Bioms of Infinity",
+        "description": "Transforms the End into a luminous archipelago filled with handcrafted biomes, bosses, and crafting systems.",
+        "authors": [
+                "Liam",
+                "AI Co-creator"
+        ],
+        "contact": {
+                "homepage": "https://github.com/",
+                "sources": "https://github.com/"
+        },
+        "license": "MIT",
 	"icon": "assets/bioms-of-infinity/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -26,7 +27,7 @@
 		"bioms-of-infinity.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
+                "fabricloader": ">=0.16.9",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
