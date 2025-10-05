@@ -18,6 +18,13 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> MIST_GRANITE_ORE_PLACED_KEY = registerKey("mist_granite_ore_placed");
     public static final RegistryKey<PlacedFeature> GLOWING_MOSS_PATCH_PLACED_KEY = registerKey("glowing_moss_patch_placed");
     public static final RegistryKey<PlacedFeature> ETHEREAL_TREE_PLACED_KEY = registerKey("ethereal_tree_placed");
+    public static final RegistryKey<PlacedFeature> GLOWSHROOM_PATCH_PLACED_KEY = registerKey("glowshroom_patch_placed");
+    public static final RegistryKey<PlacedFeature> LUMINESCENT_MOSS_PATCH_PLACED_KEY = registerKey("luminescent_moss_patch_placed");
+    public static final RegistryKey<PlacedFeature> DREAM_BLOSSOM_PATCH_PLACED_KEY = registerKey("dream_blossom_patch_placed");
+    public static final RegistryKey<PlacedFeature> SKY_VINE_PATCH_PLACED_KEY = registerKey("sky_vine_patch_placed");
+    public static final RegistryKey<PlacedFeature> SHADOWSTONE_ORE_PLACED_KEY = registerKey("shadowstone_ore_placed");
+    public static final RegistryKey<PlacedFeature> UMBRAL_THORN_PATCH_PLACED_KEY = registerKey("umbral_thorn_patch_placed");
+    public static final RegistryKey<PlacedFeature> RITUAL_LANTERN_PLACED_KEY = registerKey("ritual_lantern_patch_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -47,6 +54,27 @@ public class ModPlacedFeatures {
                 HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING),
                 BiomePlacementModifier.of()
             ));
+
+        register(context, GLOWSHROOM_PATCH_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.GLOWSHROOM_PATCH_KEY),
+                List.of(CountPlacementModifier.of(5), SquarePlacementModifier.of(), HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING), BiomePlacementModifier.of()));
+
+        register(context, LUMINESCENT_MOSS_PATCH_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.LUMINESCENT_MOSS_PATCH_KEY),
+                List.of(CountPlacementModifier.of(6), SquarePlacementModifier.of(), HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING), BiomePlacementModifier.of()));
+
+        register(context, DREAM_BLOSSOM_PATCH_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DREAM_BLOSSOM_PATCH_KEY),
+                List.of(CountPlacementModifier.of(7), SquarePlacementModifier.of(), HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING), BiomePlacementModifier.of()));
+
+        register(context, SKY_VINE_PATCH_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SKY_VINE_PATCH_KEY),
+                List.of(CountPlacementModifier.of(8), SquarePlacementModifier.of(), HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING), BiomePlacementModifier.of()));
+
+        register(context, SHADOWSTONE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SHADOWSTONE_ORE_KEY),
+                List.of(CountPlacementModifier.of(9), SquarePlacementModifier.of(), HeightRangePlacementModifier.uniform(YOffset.fixed(20), YOffset.fixed(80)), BiomePlacementModifier.of()));
+
+        register(context, UMBRAL_THORN_PATCH_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.UMBRAL_THORN_PATCH_KEY),
+                List.of(CountPlacementModifier.of(6), SquarePlacementModifier.of(), HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING), BiomePlacementModifier.of()));
+
+        register(context, RITUAL_LANTERN_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.RITUAL_LANTERN_KEY),
+                List.of(CountPlacementModifier.of(2), SquarePlacementModifier.of(), HeightmapPlacementModifier.of(Heightmap.Type.MOTION_BLOCKING), BiomePlacementModifier.of()));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "bioms-of-infinity:glowshroom_cap",
+    "bioms-of-infinity:glowshroom_stem",
+    "bioms-of-infinity:luminescent_moss",
+    "bioms-of-infinity:levitation_soil",
+    "bioms-of-infinity:sky_crystal_lantern",
+    "bioms-of-infinity:shadowstone",
+    "bioms-of-infinity:ritual_lantern",
+    "bioms-of-infinity:shadow_king_altar"
+  ]
+}
