@@ -1,6 +1,9 @@
 package net.liam.biomsofinfinity.world.biome;
 
 import net.liam.biomsofinfinity.Biomsofinfinity;
+import net.liam.biomsofinfinity.content.biome.FloatingGardensBiome;
+import net.liam.biomsofinfinity.content.biome.GlowshroomForestBiome;
+import net.liam.biomsofinfinity.content.biome.ShadowIslesBiome;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -21,6 +24,15 @@ public class ModBiomes {
     public static final RegistryKey<Biome> KRISTALLHAIN = RegistryKey.of(RegistryKeys.BIOME,
             Identifier.of(Biomsofinfinity.MOD_ID, "kristallhain"));
 
+    public static final RegistryKey<Biome> GLOWSHROOM_FOREST = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Biomsofinfinity.MOD_ID, "glowshroom_forest"));
+
+    public static final RegistryKey<Biome> FLOATING_GARDENS = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Biomsofinfinity.MOD_ID, "floating_gardens"));
+
+    public static final RegistryKey<Biome> SHADOW_ISLES = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Biomsofinfinity.MOD_ID, "shadow_isles"));
+
     // Legacy Namen für Rückwärtskompatibilität
     public static final RegistryKey<Biome> MIST_PEAKS = NEBELWIPFEL;
     public static final RegistryKey<Biome> CRYSTAL_GROVE = KRISTALLHAIN;
@@ -28,6 +40,9 @@ public class ModBiomes {
     public static void bootstrap(Registerable<Biome> context) {
         context.register(NEBELWIPFEL, createNebelwipfel(context));
         context.register(KRISTALLHAIN, createKristallhain(context));
+        context.register(GLOWSHROOM_FOREST, GlowshroomForestBiome.create(context));
+        context.register(FLOATING_GARDENS, FloatingGardensBiome.create(context));
+        context.register(SHADOW_ISLES, ShadowIslesBiome.create(context));
     }
 
     public static Biome createNebelwipfel(Registerable<Biome> context) {

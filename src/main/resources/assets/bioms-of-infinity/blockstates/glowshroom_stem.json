@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "bioms-of-infinity:block/glowshroom_stem" },
+    "axis=z": { "model": "bioms-of-infinity:block/glowshroom_stem", "x": 90 },
+    "axis=x": { "model": "bioms-of-infinity:block/glowshroom_stem", "x": 90, "y": 90 }
+  }
+}
