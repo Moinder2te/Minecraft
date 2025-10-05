@@ -4,6 +4,45 @@
 .gradle/
 build/
 out/
-# OS
+
+# Minecraft runtime files (never commit!)
+run/
+logs/
+crash-reports/
+*.log
+*.log.gz
+*.gz
+
+# Minecraft saves & screenshots
+run/saves/
+run/screenshots/
+
+# Configs generated during runtime
+run/config/
+run/usercache.json
+run/usernamecache.json
+run/options.txt
+run/command_history.txt
+
+# Mod development cache
+.remapped/
+.remappedSrc/
+.classes/
+fabric_loader_dependencies.json
+
+# OS / System files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Other temporary or backup files
+*.tmp
+*.bak
+*.swp
+*.old
+
+# VSCode (if used)
+.vscode/
+
+# Git itself
+.gitignore
