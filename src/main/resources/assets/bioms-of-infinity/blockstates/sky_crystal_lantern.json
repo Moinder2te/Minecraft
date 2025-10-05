@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "light=0":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=1":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=2":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=3":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=4":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=5":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=6":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=7":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=8":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=9":  { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=10": { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=11": { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=12": { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=13": { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=14": { "model": "bioms-of-infinity:block/sky_crystal_lantern" },
+    "light=15": { "model": "bioms-of-infinity:block/sky_crystal_lantern" }
+  }
+}

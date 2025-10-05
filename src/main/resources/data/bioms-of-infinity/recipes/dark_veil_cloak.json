@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DLD",
+    "DSD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:black_wool" },
+    "L": { "item": "bioms-of-infinity:luminous_fiber" },
+    "S": { "item": "bioms-of-infinity:shadow_heart" }
+  },
+  "result": {
+    "item": "bioms-of-infinity:dark_veil_cloak"
+  }
+}

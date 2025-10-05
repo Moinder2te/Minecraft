@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "ETE",
+    " F "
+  ],
+  "key": {
+    "F": { "item": "bioms-of-infinity:luminous_fiber" },
+    "E": { "item": "bioms-of-infinity:glowshroom_essence" },
+    "T": { "item": "minecraft:torch" }
+  },
+  "result": {
+    "item": "bioms-of-infinity:sky_crystal_lantern"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "bioms-of-infinity:dream_blossom" }
+  ],
+  "result": {
+    "item": "bioms-of-infinity:dreamseed"
+  }
+}
