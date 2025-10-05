@@ -7,15 +7,6 @@ pluginManagement {
                 mavenCentral()
                 gradlePluginPortal()
         }
-        resolutionStrategy {
-                eachPlugin {
-                        if (requested.id.id == 'fabric-loom') {
-                                if (requested.version == '1.7') {
-                                        useModule('net.fabricmc:fabric-loom:1.7.9')
-                                } else {
-                                        useModule("net.fabricmc:fabric-loom:${requested.version}")
-                                }
-                        }
-                }
-        }
 }
+
+rootProject.name = "bioms-of-infinity"
