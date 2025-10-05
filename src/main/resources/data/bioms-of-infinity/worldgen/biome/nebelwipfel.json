@@ -1,0 +1,36 @@
+{
+  "temperature": 0.2,
+  "downfall": 0.1,
+  "has_precipitation": false,
+  "category": "mountain",
+  "effects": {
+    "fog_color": 14680319,
+    "water_color": 8105983,
+    "water_fog_color": 4887794,
+    "sky_color": 13102319,
+    "grass_color": 10027955,
+    "foliage_color": 10813391
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    ["bioms-of-infinity:mist_granite_ore_placed"],
+    [],
+    ["bioms-of-infinity:ethereal_tree_placed"],
+    ["bioms-of-infinity:glowing_moss_patch_placed"],
+    [],
+    []
+  ]
+}

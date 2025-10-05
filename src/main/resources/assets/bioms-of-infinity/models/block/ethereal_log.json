@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bioms-of-infinity:block/ethereal_log_top",
+    "side": "bioms-of-infinity:block/ethereal_log"
+  }
+}
+

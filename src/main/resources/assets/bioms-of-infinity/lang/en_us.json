@@ -1,0 +1,39 @@
+{
+  "block.bioms-of-infinity.mist_granite": "Mist Granite",
+  "block.bioms-of-infinity.glowing_moss_block": "Glowing Moss Block",
+  "block.bioms-of-infinity.mist_glimmer_ore": "Mist Glimmer Ore",
+  "block.bioms-of-infinity.mist_glimmer_block": "Mist Glimmer Block",
+  "block.bioms-of-infinity.ethereal_leaves": "Ethereal Leaves",
+  "block.bioms-of-infinity.ethereal_log": "Ethereal Log",
+  "block.bioms-of-infinity.mist_mushroom": "Mist Mushroom",
+  "block.bioms-of-infinity.ghost_orchid": "Ghost Orchid",
+  "block.bioms-of-infinity.prism_glass": "Prism Glass",
+  "block.bioms-of-infinity.crystal_shard_block": "Crystal Shard Block",
+  "block.bioms-of-infinity.chromatic_endstone": "Chromatic Endstone",
+  "block.bioms-of-infinity.spore_moss": "Spore Moss",
+  "block.bioms-of-infinity.crystal_cluster": "Crystal Cluster",
+  "block.bioms-of-infinity.large_crystal_shard": "Large Crystal Shard",
+  "block.bioms-of-infinity.prismatic_crystal_ore": "Prismatic Crystal Ore",
+
+  "item.bioms-of-infinity.mist_glimmer": "Mist Glimmer",
+  "item.bioms-of-infinity.mist_crystal": "Mist Crystal",
+  "item.bioms-of-infinity.ghost_essence": "Ghost Essence",
+  "item.bioms-of-infinity.prismatic_crystal": "Prismatic Crystal",
+  "item.bioms-of-infinity.crystal_shard": "Crystal Shard",
+  "item.bioms-of-infinity.chromatic_dust": "Chromatic Dust",
+  "item.bioms-of-infinity.crystal_sword": "Crystal Sword",
+  "item.bioms-of-infinity.mist_pickaxe": "Mist Pickaxe",
+
+  "item.bioms-of-infinity.mist_crystal.tooltip": "A mystical crystal from the Mist Peaks",
+  "item.bioms-of-infinity.mist_crystal.tooltip2": "Appears only at dawn in stone veins",
+  "item.bioms-of-infinity.prismatic_crystal.tooltip": "A shimmering crystal full of magical energy",
+  "item.bioms-of-infinity.prismatic_crystal.tooltip2": "Refracts light into beautiful spectrums",
+
+  "entity.bioms-of-infinity.mist_spirit": "Mist Spirit",
+  "entity.bioms-of-infinity.mist_wolf": "Mist Wolf",
+  "entity.bioms-of-infinity.crystal_golem": "Crystal Golem",
+  "entity.bioms-of-infinity.crystal_spider": "Crystal Spider",
+
+  "biome.bioms-of-infinity.mist_peaks": "Mist Peaks",
+  "biome.bioms-of-infinity.crystal_grove": "Crystal Grove"
+}

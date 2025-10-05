@@ -1,0 +1,39 @@
+{
+  "block.bioms-of-infinity.mist_granite": "Nebelgranit",
+  "block.bioms-of-infinity.glowing_moss_block": "Leuchtender Moosblock",
+  "block.bioms-of-infinity.mist_glimmer_ore": "Nebelglimmer-Erz",
+  "block.bioms-of-infinity.mist_glimmer_block": "Nebelglimmer-Block",
+  "block.bioms-of-infinity.ethereal_leaves": "Ätherische Blätter",
+  "block.bioms-of-infinity.ethereal_log": "Ätherischer Baumstamm",
+  "block.bioms-of-infinity.mist_mushroom": "Nebelpilz",
+  "block.bioms-of-infinity.ghost_orchid": "Geisterorchidee",
+  "block.bioms-of-infinity.prism_glass": "Prismenglas",
+  "block.bioms-of-infinity.crystal_shard_block": "Kristallscherben-Block",
+  "block.bioms-of-infinity.chromatic_endstone": "Chromatischer Endstein",
+  "block.bioms-of-infinity.spore_moss": "Sporenmoos",
+  "block.bioms-of-infinity.crystal_cluster": "Kristallcluster",
+  "block.bioms-of-infinity.large_crystal_shard": "Große Kristallscherbe",
+  "block.bioms-of-infinity.prismatic_crystal_ore": "Prismatisches Kristall-Erz",
+
+  "item.bioms-of-infinity.mist_glimmer": "Nebelglimmer",
+  "item.bioms-of-infinity.mist_crystal": "Nebelkristall",
+  "item.bioms-of-infinity.ghost_essence": "Geisteressenz",
+  "item.bioms-of-infinity.prismatic_crystal": "Prismatischer Kristall",
+  "item.bioms-of-infinity.crystal_shard": "Kristallscherbe",
+  "item.bioms-of-infinity.chromatic_dust": "Chromatischer Staub",
+  "item.bioms-of-infinity.crystal_sword": "Kristallschwert",
+  "item.bioms-of-infinity.mist_pickaxe": "Nebelspitzhacke",
+
+  "item.bioms-of-infinity.mist_crystal.tooltip": "Ein mystischer Kristall aus den Nebelwipfeln",
+  "item.bioms-of-infinity.mist_crystal.tooltip2": "Erscheint nur bei Tagesanbruch in Steinadern",
+  "item.bioms-of-infinity.prismatic_crystal.tooltip": "Ein schimmernder Kristall voller magischer Energie",
+  "item.bioms-of-infinity.prismatic_crystal.tooltip2": "Bricht Licht in wunderschöne Spektren",
+
+  "entity.bioms-of-infinity.mist_spirit": "Nebelgeist",
+  "entity.bioms-of-infinity.mist_wolf": "Nebelwolf",
+  "entity.bioms-of-infinity.crystal_golem": "Kristallgolem",
+  "entity.bioms-of-infinity.crystal_spider": "Kristallspinne",
+
+  "biome.bioms-of-infinity.mist_peaks": "Nebelwipfel",
+  "biome.bioms-of-infinity.crystal_grove": "Kristallhain"
+}
